@@ -1,3 +1,9 @@
+// Layer 0: Configuration
+// **********************
+// * these generate no output!
+@import 'mixins';
+@import 'variables';
+
 // Layer 1: Built-in Browser styles
 // ********************************
 @import 'normalize';
@@ -9,3 +15,5 @@
 // Layer 3: Your reusable modules
 // ******************************
 @import 'modules/nav';
+@import 'modules/jumbotron';
+@import 'modules/buttons';

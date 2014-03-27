@@ -1,0 +1,22 @@
+.jumbotron {
+  @include clearfix;
+  color: $white;
+
+  text-shadow: 0 1px 3px $dark-grey;
+  background: $very-dark-grey asset-url('octicons-bg.png') center repeat;
+
+  .titles {
+    float: left;
+    .title {
+    }
+    .sub-title {
+    }
+  }
+
+  .signup {
+    float: right;
+  }
+
+}
+
+

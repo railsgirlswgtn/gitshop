@@ -1,0 +1,14 @@
+.button {
+  color: $white;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+.button-green {
+  background-color: $green;
+  background-image: -moz-linear-gradient($light-green, $green);
+  background-image: -webkit-linear-gradient($light-green, $green);
+  background-image: linear-gradient($light-green, $green);
+  border-color: $dark-green;
+}
