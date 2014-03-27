@@ -1,3 +1,30 @@
 .nav {
+  margin: 15px 0;
   // nav styles go here
+
+  .container {
+    width: 980px;
+    margin-left:  auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    background-image: asset-url('gitshop.png');
+    height: 31px;
+    width: 126px;
+    display: inline-block;
+  }
+
+  .nav-actions {
+    float: right;
+  }
+
+  .top-nav {
+    float: left;
+    list-style: none;
+  }
+
+  .top-nav > li {
+    float: left;
+  }
 }
