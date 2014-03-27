@@ -1,270 +1,23 @@
-<body class="">
-  <a href="">Skip to content</a>
-  <div class="">
-    <div class="">
-      <div class="">
-
-      <a class="" href="">
-        <span class=""></span>
-      </a>
-
-      <div class="">
-        <a class="" href="">Sign up</a>
-        <a class="" href="">Sign in</a>
-      </div>
-
-      <div class="">
-
-        <ul class="">
-          <li class=""><a href="">Explore</a></li>
-          <li class=""><a href="">Features</a></li>
-          <li class=""><a href="">Enterprise</a></li>
-          <li class=""><a href="">Blog</a></li>
-        </ul>
-        <form accept-charset="UTF-8" action="https://github.com/search" class="" id="top_search_form" method="get">
-
-          <div class="">
-            <span class=""></span>
-            <input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off">
-            <div class=""></div>
-          </div>
-
-
-          <span class="" aria-label="Show command bar help">
-            <span class=""></span>
-          </span>
-
-
-          <input type="hidden" name="ref" value="cmdform">
-
-        </form>
-      </div>
-
-    </div>
-  </div>
+<%= render 'nav' %>
+<%= render 'jumbotron' %>
+<%= render 'love_us' %>
+<%= render 'marketing_main' %>
+<%= render 'marketing_enterprise' %>
+<%= render 'footer' %>
 
 
 
-  <div id="start-of-content" class=""></div>
-  <div class="">
-    <div id="site-container" class="" data-pjax-container="">
+
+<%= render 'fullscreen_overlay' %>
 
 
 
-      <div class="">
-        <div class="">
-          <form accept-charset="UTF-8" action="" autocomplete="off" class="" method="post">
-          <dl class="">
-              <dd>
-              <input type="text" name="user[login]" class="" placeholder="Pick a username" data-autocheck-url="/signup_check/username" autofocus="">
-              </dd>
-            </dl>
-            <dl class="">
-              <dd>
-              <input type="text" name="user[email]" class="" placeholder="Your email" data-autocheck-url="/signup_check/email">
-              </dd>
-            </dl>
-            <dl class="">
-              <dd>
-              <input type="password" name="user[password]" class="" placeholder="Create a password" data-autocheck-url="/signup_check/password">
-              </dd>
-              <p class="">Use at least one lowercase letter, one numeral, and seven characters.</p>
-            </dl>
-            <input type="hidden" name="source_label" value="Homepage Form">
-            <button class="" type="submit">Sign up for GitHub</button>
-            <p class="">
-            By clicking "Sign up for GitHub", you agree to our
-            <a href="">terms of service</a> and
-            <a href="">privacy policy</a>.
-            </p>
-          </form>
-          <h1 class="">Build software better, together.</h1>
-          <p class="">Powerful collaboration, code review, and code management for open source and private projects. Need private repositories? <a href="">Upgraded plans start at $7/mo.</a></p>
-        </div><!-- /.container -->
-
-        <div class=""></div>
-      </div><!-- /.jumbotron -->
-
-      <div class="">
-        <div class="">
-          <div class="">
-            <h1>Why you’ll love GitHub.</h1>
-            <p class=""><a href="">Powerful features</a> to make software development more collaborative.</p>
-          </div>
-          <div class="">
-            <div class="">
-              <div class="">
-                <span class=""></span>
-              </div>
-              <h3>Great collaboration starts with communication.</h3>
-              <p>Review changes, comment on lines of code, report issues, and plan the future of your project with discussion tools.</p>
-            </div>
-            <div class="">
-              <div class="">
-                <span class=""></span>
-              </div>
-              <h3>Friction-less development across teams.</h3>
-              <p>Work with project collaborators or teams of people in organization accounts to communicate with ease.</p>
-            </div>
-            <div class="">
-              <div class="">
-                <span class=""></span>
-              </div>
-              <h3>World's largest open source community.</h3>
-              <p>Share your projects with the world, get feedback, and contribute to <a href="">millions of repositories</a> hosted on GitHub.</p>
-            </div>
-            <div class="">
-              <div class="">
-                <span class=""></span>
-              </div>
-              <h3>Do more with powerful integrations.</h3>
-              <p>Discover applications and tools that <a href="">integrate with GitHub</a> to help you and your team build software better, together.</p>
-            </div>
-          </div>
-        </div><!-- /.container -->
-      </div><!-- /.marketing-section -->
-
-      <div class="">
-        <div class="">
-          <div class="">
-            <h1>The power of GitHub on your desktop.</h1>
-            <p class="">Browse repositories, create and manage branches, and commit changes—all from your desktop.</p>
-            <div class="">
-              <a href="">
-                <span class=""></span>
-                Download GitHub for Mac
-              </a>
-              <p class="">
-              Requires OS X 10.7+ · <a href="">Learn more</a>
-              </p>
-            </div>
-            <div class="">
-              <a href="">
-                <span class=""></span>
-                Download GitHub for Windows
-              </a>
-              <p class="">
-              For Windows XP, 7, &amp; 8 · <a href="">Learn more</a>
-              </p>
-            </div>
-          </div>
-
-
-          <%= image_tag "gh-windows-app.png" %>
-          <%= image_tag "gh-mac-app.png" %>
-
-          <hr class="">
-
-          <div class="">
-            <h3>Looking for other applications?</h3>
-
-            <ul class="">
-              <li>
-              <a class="" href="">
-                <%= image_tag "gh-app-apple.png" %>
-              </a>
-              </li>
-              <li>
-              <a class="" href="">
-                <%= image_tag "gh-app-windows.png" %>
-              </a>
-              </li>
-              <li>
-              <a href="">
-                <%= image_tag "gh-app-eclipse.png" %>
-              </a>
-              </li>
-            </ul>
-          </div>
-        </div><!-- /.container -->
-      </div><!-- /.marketing-section -->
-
-      <div class="">
-        <div class="">
-          <div class="">
-            <h1>Bring GitHub to work.</h1>
-            <p class="">Use GitHub Enterprise, the best way to build software, on your servers.</p>
-            <a href="">Learn more about Enterprise</a>
-          </div>
-          <%= image_tag "gh-enterprise-code.png"%>
-        </div>
-        <div class=""></div>
-      </div>
-
-    </div>
-    <div class=""></div>
-  </div>
-</div><!-- /.wrapper -->
-
-<div class="">
-  <div class="">
-    <ul class="">
-      <li><a href="">Status</a></li>
-      <li><a href="">API</a></li>
-      <li><a href="">Training</a></li>
-      <li><a href="">Shop</a></li>
-      <li><a href="">Blog</a></li>
-      <li><a href="">About</a></li>
-
-    </ul>
-
-    <a href="">
-      <span class="" title="GitHub"></span>
-    </a>
-
-    <ul class="">
-      <li>© 2014 <span title="0.00594s from github-fe136-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
-      <li><a href="">Terms</a></li>
-      <li><a href="">Privacy</a></li>
-      <li><a href="">Security</a></li>
-      <li><a href="">Contact</a></li>
-    </ul>
-  </div><!-- /.site-footer -->
-</div><!-- /.container -->
-
-
-<div class="" id="fullscreen_overlay">
-  <div class="">
-    <div class="">
-      <textarea name="fullscreen-contents" id="fullscreen-contents" class="" placeholder="" data-suggester="fullscreen_suggester"></textarea>
-    </div>
-  </div>
-  <div class="">
-    <a href="">
-      <span class=""></span>
-    </a>
-    <a href="">
-      <span class=""></span>
-    </a>
-  </div>
-</div>
 
 
 
-<div id="ajax-error-message" class="">
-  <span class=""></span>
-  <a href=""></a>
-  Something went wrong with that request. Please try again.
-</div>
 
-  <div id="dev-grid">
-    <div class="container">
-      <div class="col outer st-wid-1 st-pos-0">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-1">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-2">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-3">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-4">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-5">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-6">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-7">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-8">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-9">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-10">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-11">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-12">&nbsp;</div>
-      <div class="col outer st-wid-1 st-pos-13">&nbsp;</div>
-    </div>
-  </div>
+
+
 
   <a name="top" id="top"></a>
 
@@ -329,15 +82,7 @@
     </div>
   </div>
 
-  <div id="unsupported">
-    <div class="container pink white-type">
-      <div class="row">
-        <div class="st-wid-12 st-pos-1">
-          <p class="fineprint">We worked with the public to make our website easy to use and understand, so it uses features that your older browser may not fully support. If you experience display problems <a href="">click here</a> for a list of upgrade options.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <%= render 'unsupported_browser' %>
 
   <div id="page">
 
@@ -892,9 +637,3 @@
     </div>
 
   </div>
-
-</body>
-</html>
-
-</body>
-
