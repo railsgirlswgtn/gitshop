@@ -1,6 +1,6 @@
 .nav {
+  @include clearfix;
   margin: 15px 0;
-  // nav styles go here
 
   .container {
     width: 980px;
