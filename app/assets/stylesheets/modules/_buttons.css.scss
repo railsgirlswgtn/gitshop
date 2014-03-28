@@ -1,7 +1,6 @@
 .button {
   color: $white;
   padding: 1em;
-  margin: 1em;
   border-radius: 5px;
 }
 
@@ -11,4 +10,8 @@
   background-image: -webkit-linear-gradient($light-green, $green);
   background-image: linear-gradient($light-green, $green);
   border-color: $dark-green;
+}
+
+.button-full-width {
+  width: 100%;
 }
