@@ -1,12 +1,9 @@
+$(function () {
 
-$(document).ready(function () {
+  $(document).on('click', '.js-enlarge-on-click', function(e) {
 
-  $('.js-enlarge-on-click').on('click', function(e) {
-
-    var $box = $(e.currentTarget);
     $('.js-enlarge-on-click').removeClass('selected');
-    $box.addClass('selected');
+    $(e.currentTarget).addClass('selected');
 
   });
-
 });
