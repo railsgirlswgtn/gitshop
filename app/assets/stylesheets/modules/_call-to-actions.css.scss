@@ -1,0 +1,32 @@
+.call-to-actions {
+  @include clearfix;
+  text-align: center;
+  padding: 3em;
+  color: $white;
+
+  .column {
+    float: left;
+    width: 33%;
+  }
+
+  .box {
+    margin: 3em 0;
+    padding: 2em;
+    min-height: 300px;
+
+    &.selected {
+      margin: 1em 0;
+    }
+
+  }
+  .dark-pink {
+    background-color: $dark-pink
+  }
+  .medium-pink {
+    background-color: $medium-pink
+  }
+  .light-pink {
+    background-color: $light-pink
+  }
+
+}
