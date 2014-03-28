@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a base rails install with one page full of HTML. We want you to style
+the page to match the provided design briefs.
 
-Things you may want to cover:
+We would like the _twitter_timeline section to contain a twitter embed of all
+#railsgirlswgtn tweets. Instructions are here:
+https://dev.twitter.com/docs/embedded-timelines
 
-* Ruby version
+Your goal for today is to make the homepage match the design brief (see the
+`completed-site.png` in the project root).
 
-* System dependencies
+Useful links:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* http://rachelnabors.com/javascript-for-designers/
