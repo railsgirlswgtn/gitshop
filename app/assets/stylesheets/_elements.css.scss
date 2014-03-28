@@ -8,23 +8,3 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-body {
-  color: #333;
-  background-color: #fff;
-}
-
-body, input, select, textarea, button {
-  font: 13px Helvetica, arial, freesans, clean, sans-serif;
-  line-height: 1.4;
-}
-
-
-a {
-  color: $blue;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
