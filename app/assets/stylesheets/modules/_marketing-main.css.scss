@@ -1,11 +1,14 @@
 .marketing-main {
-  border: 1px solid red;
-  text-align: center;
 
+  text-align: center;
 
   .demo-images {
     width: 80%;
     margin: 0 auto;
+
+    .image {
+      margin: 1em;
+    }
   }
 
   .other-apps {
