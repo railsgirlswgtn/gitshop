@@ -1,10 +1,17 @@
 .button {
-  color: $white;
+  color: $text-color;
   padding: 1em;
   border-radius: 5px;
+  display: inline-block;
+  background-color: $light-grey;
+  background-image: -moz-linear-gradient(#fcfcfc, $lighter-grey);
+  background-image: -webkit-linear-gradient(#fcfcfc, $lighter-grey);
+  background-image: linear-gradient(#fcfcfc, $lighter-grey);
+  border: 1px solid #d5d5d5;
 }
 
 .button-green {
+  color: $white;
   background-color: $green;
   background-image: -moz-linear-gradient($light-green, $green);
   background-image: -webkit-linear-gradient($light-green, $green);
