@@ -1,0 +1,19 @@
+.marketing-main {
+  border: 1px solid red;
+  text-align: center;
+
+
+  .demo-images {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .other-apps {
+    list-style: none;
+
+    .app {
+      display: inline-block;
+      padding: 0 3em;
+    }
+  }
+}
