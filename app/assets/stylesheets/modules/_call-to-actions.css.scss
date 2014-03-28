@@ -3,6 +3,7 @@
   text-align: center;
   padding: 3em;
   color: $white;
+  font-size: 130%;
 
   .column {
     float: left;
@@ -10,12 +11,13 @@
   }
 
   .box {
-    margin: 3em 0;
+    margin: 30px 0;
     padding: 2em;
-    min-height: 300px;
+    height: 400px; // uugh ...
 
     &.selected {
-      margin: 1em 0;
+      margin: 10px 0;
+      height: 440px; // uugh ...
     }
 
   }
