@@ -15,12 +15,21 @@
     padding: 2em;
     height: 400px; // uugh ...
 
-    &.selected {
-      margin: 10px 0;
-      height: 440px; // uugh ...
+    .details {
+      display: none;
     }
-
   }
+
+  .box.selected {
+    padding-top: 120px;
+    margin-top: -60px;
+    height: 520px; // uugh ....
+
+    .details {
+      display: block;
+    }
+  }
+
   .dark-pink {
     background-color: $dark-pink
   }
