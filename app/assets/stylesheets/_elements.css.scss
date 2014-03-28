@@ -1,0 +1,10 @@
+// Only bare HTML element selectors should go in here!
+
+// Use border-box for element sizing model.
+// If you're curious, see here:
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
