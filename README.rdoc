@@ -2,6 +2,8 @@
 
 This is a base rails install with one page full of HTML. We want you to style the page to match the provided design briefs.
 
+We would like the _twitter_timeline section to contain a twitter embed of all #railsgirlswgtn tweets. Instructions are here: https://dev.twitter.com/docs/embedded-timelines
+
 Useful links:
 
 * http://rachelnabors.com/javascript-for-designers/
