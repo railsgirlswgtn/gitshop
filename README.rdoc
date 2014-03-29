@@ -13,3 +13,4 @@ Your goal for today is to make the homepage match the design brief (see the
 Useful links:
 
 * http://rachelnabors.com/javascript-for-designers/
+* http://wtfhtmlcss.com
